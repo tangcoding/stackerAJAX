@@ -1,0 +1,81 @@
+.container {
+	margin: 3em auto;
+	width: 600px;
+}
+
+.hidden {
+	display: none;
+}
+
+.left {
+	float: left;
+}
+
+.stack-image {
+	background: url('images/stack-icon.png') no-repeat center center;
+	width: 200px;
+	height: 200px;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-right: 1em;
+  border-radius: 5px;
+}
+
+.intro {
+	margin-bottom: 1em;
+}
+.stack {
+	clear: both;
+}
+
+.stack h3{
+	margin: 15px auto;
+}
+
+.unanswered-getter, .inspiration-getter{
+	margin-bottom: 2.5em;
+}
+
+.inspiration { 
+	margin-left: 3em;
+}
+
+.search-results{
+	margin: 25px auto 1em auto;
+}
+
+.result {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 25px auto 1em auto;
+}
+
+.top-answerer img{
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.top-answerer p{
+	margin-left: 145px;
+}
+
+.middle{
+	border: 1px dashed grey;
+}
+
+dl {
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px 3px #aaa;
+	padding: 15px;
+}
+
+
+.error {
+	background-color: #F78181;
+	padding: 1em;
+}
